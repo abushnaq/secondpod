@@ -10,18 +10,18 @@
 Pod::Spec.new do |s|
   s.name             = "secondpod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of secondpod."
+  s.summary          = "A description of secondpod."
   s.description      = <<-DESC
-                       An optional longer description of secondpod
+                       An longer description of secondpod
 
                        * Markdown format.
                        * Don't worry about the indent, we strip it!
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/secondpod"
+  s.homepage         = "https://github.com/abushnaq/secondpod"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Ahmad Bushnaq" => "ahmad.bushnaq@weather.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/secondpod.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/abushnaq/secondpod.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
